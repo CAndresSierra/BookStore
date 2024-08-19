@@ -1,0 +1,50 @@
+@model AppStore.Models.Dto.LibroListvm;
+
+@{
+    Layout = "_layout";
+}
+
+
+        <section class="search-bar">
+          <form >
+          <input type="text" placeholder="buscar libro">
+          <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+        </section>
+
+
+        <section class="movies">
+
+          @foreach(var libro in Model.LibroList!)
+          {
+          <div class="movie-card"onclick="window.location.href='/movie-detail.html'" >
+            <div class="movie-image">
+            <img src="/Uploads/@libro.Image" width="200" height="300" alt="@libro.Title">
+            </div>
+            <div class="movie-info">
+                <h4>@libro.Title</h4>
+                <h4>@libro.categoriasNames</h4>
+                <h4>@libro.CreateDate</h4>
+            </div>
+           </div>
+          }
+
+
+
+           
+         
+        </section>
+
+
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#">1</a>
+          <a class="active" href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
+        </div>
+    </div>
+       
