@@ -1,3 +1,4 @@
+using AppStore.Models.Domain;
 using AppStore.Repositories.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,5 +20,17 @@ public class HomeController : Controller
         var libros = _libroService.List(term, true, currentPage);
 
         return View(libros);
+    }
+
+    public IActionResult LibroDetail(int libroId) 
+    {
+       Libro libro =  _libroService.GetById(libroId);
+
+       return View(libro);
+    }
+
+    public IActionResult About()
+    {
+        return View();
     }
 }

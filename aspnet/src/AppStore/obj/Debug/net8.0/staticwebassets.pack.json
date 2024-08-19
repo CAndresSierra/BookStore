@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\harryPotter.jpg",
+      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\harryPotter.jpg",
       "PackagePath": "staticwebassets\\Uploads\\harryPotter.jpg"
     },
     {
-      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\quijote.jpg",
+      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\quijote.jpg",
       "PackagePath": "staticwebassets\\Uploads\\quijote.jpg"
     },
     {
-      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\css\\form.css",
+      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\form.css",
       "PackagePath": "staticwebassets\\css\\form.css"
     },
     {
-      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
+      "Id": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {

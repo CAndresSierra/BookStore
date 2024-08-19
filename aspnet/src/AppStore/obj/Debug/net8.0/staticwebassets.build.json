@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ofEuvbqmu/G3CxnTi9BvzAuLMGK7XXKDTUPhOaGtQZU=",
+  "Hash": "UCQwbunPntN7RNISpkGGEhDC/PHYWgyAEIb4re15rT4=",
   "Source": "AppStore",
   "BasePath": "_content/AppStore",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AppStore\\wwwroot",
       "Source": "AppStore",
-      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\",
+      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\css\\form.css",
+      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\form.css",
       "SourceId": "AppStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\",
+      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
       "RelativePath": "css/form.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\form.css"
     },
     {
-      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
+      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
       "SourceId": "AppStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\",
+      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\harryPotter.jpg",
+      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\harryPotter.jpg",
       "SourceId": "AppStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\",
+      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
       "RelativePath": "Uploads/harryPotter.jpg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\harryPotter.jpg"
     },
     {
-      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\quijote.jpg",
+      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\quijote.jpg",
       "SourceId": "AppStore",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\aspnet\\src\\AppStore\\wwwroot\\",
+      "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
       "RelativePath": "Uploads/quijote.jpg",
       "AssetKind": "All",
