@@ -24,7 +24,7 @@ public class UserAuthenticationService : IUserAuthenticationService
     public async Task<Status> LoginAsync(LoginModel login)
     {
         var status = new Status();
-        var user = await userManager.FindByNameAsync(login.UserName);
+        var user = await userManager.FindByNameAsync(login.UserName!);
 
         if(user is null)
         {
@@ -33,14 +33,14 @@ public class UserAuthenticationService : IUserAuthenticationService
             return status;
         }
 
-        if(!await userManager.CheckPasswordAsync(user, login.Password))
+        if(!await userManager.CheckPasswordAsync(user, login.Password!))
         {
             status.StatusCode = 0;
             status.Message = "La password es invalida";
             return status;
         }
 
-       var resultado = await  signInManager.PasswordSignInAsync(user, login.Password, true, false);
+       var resultado = await  signInManager.PasswordSignInAsync(user, login.Password!, true, false);
 
        if(!resultado.Succeeded)
        {

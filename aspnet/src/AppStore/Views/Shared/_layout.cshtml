@@ -1,4 +1,6 @@
-
+@{
+     string username = User.Identity!.Name!;
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookStore</title> 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/forms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -21,20 +24,27 @@
          libreria store
       </div>
       <ul class="nav-link">
-          <li><a class="active" href="/index.html">Inicio</a></li>
+          <li><a class="active" href="/">Inicio</a></li>
           <li><a href="/Home/About">About</a></li>
+
+         @if(!string.IsNullOrEmpty(username)){
+
           <li>
             <a href="#">Admin <i class="fa fa-caret-down"></i></a>
             
             <ul class="dropdown-nav-link">
-                <li><a href="/forms.html">Form</a></li>
-                <li><a href="/table.html">Table</a></li>
-                <li><a href="/movie-detail.html">Libro Detalle</a></li>
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Logout</a></li>
+                <li><a href="/forms.html">Categoria</a></li>
+                <li><a href="/table.html">Libro</a></li>
+                <li><a href="/UserAuthentication/Logout">Logout</a></li>
             </ul>
           </li>
-          <li><a href="#">Login</a></li>
+         }
+
+          @if(string.IsNullOrEmpty(username)){
+            <li><a href="/UserAuthentication/Login">Login</a></li>
+          }
+
+
       </ul>
     </nav>
 

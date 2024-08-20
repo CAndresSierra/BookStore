@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UCQwbunPntN7RNISpkGGEhDC/PHYWgyAEIb4re15rT4=",
+  "Hash": "qvh+AX0VMa9eWgLgEJek0ONA8Q+C7Blty3wM40CaMFE=",
   "Source": "AppStore",
   "BasePath": "_content/AppStore",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\form.css",
+      "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\forms.css",
       "SourceId": "AppStore",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
-      "RelativePath": "css/form.css",
+      "RelativePath": "css/forms.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\form.css"
+      "OriginalItemSpec": "wwwroot\\css\\forms.css"
     },
     {
       "Identity": "D:\\CAMILO FULLSTACK\\Udemy cursos\\CURSO C#\\BookStore\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
