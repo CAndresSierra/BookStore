@@ -25,8 +25,8 @@ public class FileService : IFileService
             Directory.CreateDirectory(path);
           }
 
-          var ext = Path.GetExtension(imageFile.FileName);
-          var allowedExtensions = new String[] {"jpg", "png", "jpeg"};
+          var ext = Path.GetExtension(imageFile.FileName).ToLowerInvariant();
+          var allowedExtensions = new String[] {".jpg", ".png", ".jpeg"};
 
           if(!allowedExtensions.Contains(ext))
           {

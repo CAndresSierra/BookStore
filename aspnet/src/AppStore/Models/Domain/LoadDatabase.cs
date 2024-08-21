@@ -48,7 +48,7 @@ public class LoadDatabase
       if(!context.Libros.Any())
       {
 
-       
+     
 
         await context.Libros.AddRangeAsync(
             new Libro {
@@ -63,28 +63,9 @@ public class LoadDatabase
              CreateDate = "26/06/1997", 
              Image = "harryPotter.jpg", 
              Author = "J. K. Rowling"
-             },
-
-            new Libro {
-             Title = "La Catedral",
-             CreateDate = "30/06/2002", 
-             Image = "catedral.jpg", 
-             Author = "Cesar Mallorqui"
-             },
-
-            new Libro {
-             Title = "Cien Años de soledad",
-             CreateDate = "26/06/1967", 
-             Image = "cien.jpg", 
-             Author = "Gabriel Garcia Marquez"
-             },
-
-            new Libro {
-             Title = "Lazarillo de Tormes",
-             CreateDate = "13/02/1554", 
-             Image = "lazarillo.jpg", 
-             Author = "Diego Hurtado de Mendoza"
              }
+
+            
 
 
 
